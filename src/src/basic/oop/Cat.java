@@ -1,17 +1,17 @@
 package basic.oop;
 
-public class Dog {
+public class Cat {
     private int age;
 
-    public Dog() {
+    public Cat() {
+
     }
 
-
-    public void getVoice(){
-        System.out.println(sayHaf());
+    public void getVoice() {
+        System.out.println(sayMeow());
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
     public void setAge(int age) {
@@ -21,14 +21,13 @@ public class Dog {
             System.out.println("please put positive number");
         }
     }
-
-    private String sayHaf() {
+    private String sayMeow() {
         if (age>0 && age<=3) {
-            return "luf luf";
+            return "mau mau";
         }else if (age > 3 && age <=6) {
-            return "haf haf";
+            return "meow meow";
         }else {
-            return "gaf gaf";
+            return "geow geow";
         }
     }
 }
