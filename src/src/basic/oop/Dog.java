@@ -1,7 +1,6 @@
 package basic.oop;
 
 public class Dog {
-    private String voice;
     private int age;
 
     public Dog(int age) {
