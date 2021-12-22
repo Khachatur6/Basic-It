@@ -8,7 +8,15 @@ public class Dog {
 
 
     public void getVoice(){
-        System.out.println(sayHaf());
+        if (age < 0) {
+            System.out.println("notbornyet");
+        } else if (age>0 && age<=3) {
+            System.out.println("luf luf");
+        }else if (age > 3 && age <=6) {
+            System.out.println("haf haf");
+        }else if (age > 6){
+            System.out.println("gaf gaf");
+        };
     }
 
     public int getAge(){
@@ -22,13 +30,4 @@ public class Dog {
         }
     }
 
-    private String sayHaf() {
-        if (age>0 && age<=3) {
-            return "luf luf";
-        }else if (age > 3 && age <=6) {
-            return "haf haf";
-        }else {
-            return "gaf gaf";
-        }
-    }
 }
