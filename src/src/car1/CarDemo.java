@@ -1,9 +1,9 @@
-package car1;
-
-import basic.oop.User;
-
-public class CarDemo {
-    public static void main(String[] args) {
+//package car1;
+//
+//import basic.oop.User;
+//
+//public class CarDemo {
+//    public static void main(String[] args) {
        // CarLogic car = new Bmw();
 //
        // CarLogic car1 = new Kia();
@@ -20,6 +20,6 @@ public class CarDemo {
       //StringBuilder stringBuilder = new StringBuilder("test");
       //stringBuilder.append("a");
       //stringBuilder.append("b");
-
-    }
-}
+//
+//    }
+//}

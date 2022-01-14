@@ -1,4 +1,4 @@
-package basic.oop.Exception.Homework;
+package basic.oop.Exception.Homework.Homework1;
 
 public class Arrays {
     int[] ints = {2, 4, 5, 6, 8, 10};

@@ -1,4 +1,4 @@
-package basic.oop.Exception.Homework;
+package basic.oop.Exception.Homework.Homework1;
 
 public class ArraysDemo {
     public static void main(String[] args) throws MyBadException {

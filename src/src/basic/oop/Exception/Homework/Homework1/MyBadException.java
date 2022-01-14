@@ -1,4 +1,4 @@
-package basic.oop.Exception.Homework;
+package basic.oop.Exception.Homework.Homework1;
 
 public class MyBadException extends Exception {
     public MyBadException() {
