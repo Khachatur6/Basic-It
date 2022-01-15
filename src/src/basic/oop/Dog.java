@@ -2,26 +2,30 @@ package basic.oop;
 
 public class Dog {
     private int age;
+    private String voice;
 
     public Dog() {
     }
-
-
     public void getVoice(){
         if (age < 0) {
             System.out.println("notbornyet");
         } else if (age>0 && age<=3) {
-            System.out.println("luf luf");
+            voice = "luf luf";
         }else if (age > 3 && age <=6) {
-            System.out.println("haf haf");
+           voice = "haf haf";
         }else if (age > 6){
-            System.out.println("gaf gaf");
-        };
+            voice = "gaf gaf";
+        }
     }
 
     public int getAge(){
         return age;
     }
+
+    public String getvoice() {
+        return voice;
+    }
+
     public void setAge(int age) {
         if (age>0) {
             this.age = age;

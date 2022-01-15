@@ -8,9 +8,16 @@ public class Cat {
     }
 
     public void getVoice() {
-        System.out.println(sayMeow());
+        if (age < 0) {
+            System.out.println("notbornyet");
+        }else if (age>0 && age<=3) {
+            System.out.println("mau mau");
+        }else if (age > 3 && age <=6) {
+            System.out.println("meow meow");;
+        }else if (age > 6){
+            System.out.println("geow geow");;
+        }
     }
-
     public int getAge() {
         return age;
     }
@@ -19,15 +26,6 @@ public class Cat {
             this.age = age;
         }else {
             System.out.println("please put positive number");
-        }
-    }
-    private String sayMeow() {
-        if (age>0 && age<=3) {
-            return "mau mau";
-        }else if (age > 3 && age <=6) {
-            return "meow meow";
-        }else {
-            return "geow geow";
         }
     }
 }
