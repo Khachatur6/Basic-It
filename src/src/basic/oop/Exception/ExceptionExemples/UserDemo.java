@@ -1,4 +1,7 @@
-package basic.oop.Exception;
+package basic.oop.Exception.ExceptionExemples;
+
+import basic.oop.Exception.ExceptionExemples.MyException;
+import basic.oop.Exception.ExceptionExemples.User;
 
 public class UserDemo {
     public static void main(String[] args) throws MyException {

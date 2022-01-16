@@ -1,4 +1,4 @@
-package basic.oop;
+package basic.oop.MixPaclage;
 
 import animal.Animal;
 import animal.AnimalDemo;

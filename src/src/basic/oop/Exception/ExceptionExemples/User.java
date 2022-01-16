@@ -1,4 +1,4 @@
-package basic.oop.Exception;
+package basic.oop.Exception.ExceptionExemples;
 
 public class User {
     private String name;

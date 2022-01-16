@@ -1,4 +1,6 @@
-package basic.oop;
+package basic.oop.MixPaclage;
+
+import basic.oop.MixPaclage.Dog;
 
 public class DogTest {
     public static void main(String[] args) {

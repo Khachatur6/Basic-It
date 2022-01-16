@@ -1,4 +1,6 @@
-package basic.oop;
+package basic.oop.MixPaclage;
+
+import basic.oop.MixPaclage.Cat;
 
 public class CatTest {
     public static void main(String[] args) {

@@ -1,26 +1,31 @@
-package basic.oop;
+package basic.oop.MixPaclage;
 
-public class Cat {
+public class Dog {
     private int age;
+    private String voice;
 
-    public Cat() {
-
+    public Dog() {
     }
-
-    public void getVoice() {
+    public void getVoice(){
         if (age < 0) {
             System.out.println("notbornyet");
-        }else if (age>0 && age<=3) {
-            System.out.println("mau mau");
+        } else if (age>0 && age<=3) {
+            voice = "luf luf";
         }else if (age > 3 && age <=6) {
-            System.out.println("meow meow");;
+           voice = "haf haf";
         }else if (age > 6){
-            System.out.println("geow geow");;
+            voice = "gaf gaf";
         }
     }
-    public int getAge() {
+
+    public int getAge(){
         return age;
     }
+
+    public String getvoice() {
+        return voice;
+    }
+
     public void setAge(int age) {
         if (age>0) {
             this.age = age;
@@ -28,4 +33,5 @@ public class Cat {
             System.out.println("please put positive number");
         }
     }
+
 }

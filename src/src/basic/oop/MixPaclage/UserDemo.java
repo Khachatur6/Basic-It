@@ -1,8 +1,6 @@
-package basic.oop;
+package basic.oop.MixPaclage;
 
 import java.util.Arrays;
-
-import static basic.oop.User.bubble;
 
 public class UserDemo {
     public static void main(String[] args) {
